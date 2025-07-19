@@ -135,7 +135,7 @@ function App() {
               onClick={spinWheel}
               disabled={isSpinning}
             >
-              {isSpinning ? 'Tourne...' : 'Tourner la roue!'}
+              {isSpinning ? 'Tourne...' : 'Tournez la roue!'}
             </button>
           </>
         ) : (
