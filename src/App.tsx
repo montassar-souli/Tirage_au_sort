@@ -11,8 +11,8 @@ function App() {
   const initialTeams: Team[] = [
     { id: 1, name: 'Équipe 1', color: '#ff6b6b', message: '🎉 Équipe 1 QR code 1' },
     { id: 2, name: 'Équipe 2', color: '#4ecdc4', message: '⚡ Équipe 2 QR code 2' },
-    { id: 3, name: 'Équipe 3', color: '#45b7d1', message: '🔥 Équipe 3 QR code 4' },
-    { id: 4, name: 'Équipe 4', color: '#f9ca24', message: '🌟 Équipe 4 QR code 3' }
+    { id: 3, name: 'Équipe 3', color: '#45b7d1', message: '🔥 Équipe 3 QR code 3' },
+    { id: 4, name: 'Équipe 4', color: '#f9ca24', message: '🌟 Équipe 4 QR code 4' }
   ];
 
   const [teams, setTeams] = useState<Team[]>(initialTeams);
